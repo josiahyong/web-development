@@ -1,6 +1,12 @@
 h1 {
  color:violet;
 }
-ul {
-    text-align: left;
+body {
+    background-color: aquamarine;
+}
+p {
+    color:red;
+}
+table{
+    text-align: center ;
 }
