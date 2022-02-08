@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Amazon",
+        "numberOfEmployees":"50000",
+        "CEO":"Adam",
+        "rating":4
+    },
+    {
+        "name":"Google",
+        "numberOfEmployees":"65000",
+        "CEO":"Jane",
+        "rating":4.5
+    }
+]
