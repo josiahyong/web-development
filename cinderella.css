@@ -4,9 +4,10 @@ h1 {
 body {
     background-color: aquamarine;
 }
-p {
-    color:red;
+.rules{
+color:rgb(64, 6, 141);
 }
 table{
-    text-align: center ;
-}
+    text-align: center ;}
+     
+    
