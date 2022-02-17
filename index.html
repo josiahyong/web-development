@@ -1,52 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Josiah's Personal Website</title>
-    <link rel="stylesheet" href="index.css">
- </head>
+    <meta charset="utf-8">
+<title>Josiah Web CSS Challenge</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family=Montserrat:wght@200&family=Sacramento&display=swap" rel="stylesheet">
+</head>
 <body>
-    <table class="groovetop">
-        <tr>
-            <td>
-        <img src="IMG_2235.JPG" alt="Josiah" width="300" height="300" ></td>
-        <td>
-            <h1>Josiah Yong</h1>
-            <p>Welcome to my website!</p>
-            <p>I like to eat and play sports🍔⚽️</p>
-        </td>
-        </tr>
-    </table> 
-    <hr>
-    <div>
-           <h2>My Details</h2>
-       
-           <ul>
-               <li>I am 21 years old as of 2022</li>
-               <li>Currently waiting to enter NTU</li>
-               <li>Will be studying Computer Engineering</li>
-           </ul>
-           </div>
-    <hr>
-         <div>  <h2>Work Experience</h2>
-           <table>
-               <tr>
-                   <th>Dates</th>
-                   <th>Work</th>
-               </tr>
-               <tr>
-                   <td>Dec 2017-Jan 2020</td>
-                   <td>Ad-Hoc F&B service crew</td>
-               </tr>
-               <tr>
-                   <td>Jan 2020-Nov 2021</td>
-                   <td>SAF, 1st Cdo Bn</td>
-               </tr>
-               <tr>
-                   <td>Nov 2021-Feb 2022</td>
-                   <td>Customer Experience Officer (MOM)</td>
-               </tr>
-           </table>
-</div>
+    <div class="top-container">
+        <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+        <h1>I'm Josiah.</h1>
+        <h2>a programmer.</h2>
+        <img class="bottom-cloud" src="images/cloud.png">
+        <img src="images/mountain.png">
+
+    </div>
+    <div class="middle-container">
+        <div class="profile">
+          <img class=" josiah-img" src="images/IMG_2235.JPG" alt="josiah's face">
+          <h2>Hello.</h2>
+          <p>I will be studying Computer Engineering in NTU. I like to eat and play sports🍔⚽️.</p>
+        </div>
+        <hr>
+        <div class="skills">
+          <h2>My Skills.</h2>
+          <div class="skill-row">
+            <img class="math-img" src="https://cdn4.vectorstock.com/i/1000x1000/35/48/calculator-math-kawaii-character-cartoon-vector-19543548.jpg" alt="">
+            <h3>Mathematics</h3>
+            <p>I love doing Mathematics and am very good at it. I even participated in Math Olympiad in the past!</p>
+          </div>
+          <div class="skill-row">
+            <img class="sports-img" src="https://cdn2.vectorstock.com/i/1000x1000/60/31/sports-balls-set-cartoon-balls-icon-vector-14796031.jpg" alt="">
+            <h3>Sports</h3>
+            <p>Man loves playing sports, especially those that involves balls</p>
+          </div>
+        </div>
+        <hr>
+        <div class="contact-me">
+          <h2>Get In Touch</h2>
+          <h3>More of me below</h3>
+          <p>  </p>
+          <a class="btn" href="josiahyong123@gmail.com">CONTACT ME</a>
+        </div>
+      </div>
+      
+      
+      <div class="bottom-container">
+        <a class="footer-link" href="https://www.facebook.com/">Facebook</a>
+        <a class="footer-link" href="https://instagram.com/jos.iahh">Instagram</a>
+        <a class="footer-link" href="https://josiahyong.github.io/web-development/">Website</a>
+        <p>© Josiah Yong</p>
+      </div>
 </body>
 </html>
